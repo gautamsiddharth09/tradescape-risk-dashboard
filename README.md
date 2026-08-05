@@ -43,7 +43,7 @@ I would add trade filters, real-time data updates, and more charts like asset-wi
 - Real-time updates
 - Trade filtering
 
-<img src="./assets/dashboard.png" alt="Dashboard" width="900" />
+![Dashboard](./src/assets/dashboard.png)
 
 ##  How to Run the Project
 
