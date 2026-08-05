@@ -4,39 +4,6 @@ A simple and responsive Trader Risk Dashboard built using **Java Script**, **Rea
 
 ---
 
-##  How to Run the Project
-
-1. Clone the repository
-
-```bash
-git clone <your-github-repository-link>
-```
-
-2. Go to the project folder
-
-```bash
-cd tradescape-dashboard
-```
-
-3. Install dependencies
-
-```bash
-npm install
-```
-
-4. Start the development server
-
-```bash
-npm run dev
-```
-
-5. Open your browser and visit:
-
-```text
-http://localhost:5173
-```
-
----
 
 ##  What I Built
 
@@ -77,3 +44,37 @@ I would add trade filters, real-time data updates, and more charts like asset-wi
 - Trade filtering
 
 
+
+##  How to Run the Project
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/gautamsiddharth09/tradescape-risk-dashboard.git
+```
+
+2. Go to the project folder
+
+```bash
+cd tradescape-risk-dashboard
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the development server
+
+```bash
+npm run dev
+```
+
+5. Open your browser and visit:
+
+```text
+http://localhost:5173
+```
+
+---
