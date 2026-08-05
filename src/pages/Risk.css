@@ -1,0 +1,96 @@
+.risk-page {
+  padding: 30px;
+}
+
+.risk-page h2 {
+  font-size: 30px;
+  color: #1f2937;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+
+
+.risk-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  border-left: 5px solid #3b82f6;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.card h3 {
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.card p {
+  font-size: 30px;
+  font-weight: 700;
+  color: #1f2937;
+  word-break: break-word;
+}
+
+/* =======================
+   Risk Status
+======================= */
+
+.risk-status {
+  margin-top: 30px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.risk-status h3 {
+  margin: 0;
+  color: #1f2937;
+  font-size: 18px;
+}
+
+.status {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* Status Colors */
+
+.safe {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.approaching-limit {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.at-risk {
+  background: #fee2e2;
+  color: #dc2626;
+}

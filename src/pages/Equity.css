@@ -1,0 +1,78 @@
+.equity-page {
+  padding: 25px;
+}
+
+.equity-page h2 {
+  font-size: 28px;
+  color: #1f2937;
+  margin-bottom: 8px;
+}
+
+.equity-page p {
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+.chart-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  overflow-x: auto;
+}
+
+/* Laptop */
+
+@media (max-width: 992px) {
+  .equity-page {
+    padding: 20px;
+  }
+
+  .chart-card {
+    padding: 18px;
+  }
+}
+
+/* Tablet */
+
+@media (max-width: 768px) {
+  .equity-page {
+    padding: 15px;
+  }
+
+  .equity-page h2 {
+    font-size: 24px;
+  }
+
+  .equity-page p {
+    font-size: 14px;
+  }
+
+  .chart-card {
+    padding: 15px;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 480px) {
+  .equity-page {
+    padding: 10px;
+  }
+
+  .equity-page h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .equity-page p {
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .chart-card {
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
